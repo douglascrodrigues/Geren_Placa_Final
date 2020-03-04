@@ -19,7 +19,6 @@ class Modelo_placas(models.Model):
     )
 
     
-
     def __str__(self):
         return '{} - {}'.format(self.Modelo, self.Descricao) 
 
