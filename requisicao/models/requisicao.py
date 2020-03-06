@@ -44,7 +44,7 @@ class Cadastro_Requisicao(models.Model):
     Status = models.CharField(
         default="Pendente"
         'Status',
-        max_length=20,
+        max_length=20,#É uma string com o nome do status
         choices=STATUS_CHOICES
     )
 
