@@ -143,3 +143,6 @@ def ExportarRequisicaoCSV(request):
                         registro.username,
                         ])
     return response
+
+#retorna apenas os dados contidos na tabela, o ideal seria ao menos
+#retornar uma coluna com o cálculo. e exportar para xls.
